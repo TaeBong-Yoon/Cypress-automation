@@ -1,0 +1,19 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "reporter": "cypress-multi-reporters",
+  "video": false,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/results/assets",
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/results",
+      "reportFilename": "Test-report",
+      "overwrite": false,
+      "html": true,
+      "json": true
+    }
+  }
+}
