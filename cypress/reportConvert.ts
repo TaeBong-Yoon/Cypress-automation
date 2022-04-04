@@ -192,7 +192,7 @@ const write = async (data: IJsonData) => {
       },
     ],
   };
-  await axios.post('https://hooks.slack.com/services/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', {
+  await axios.post('input slack token', {
     ...json,
   });
 };
